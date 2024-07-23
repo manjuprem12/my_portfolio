@@ -2,7 +2,7 @@
 import React from 'react';
 
 import './Certifications.css'
-import { CgArrowsExpandUpRight } from 'react-icons/cg';
+// import { CgArrowsExpandUpRight } from 'react-icons/cg';
 import course_data from './data/courses-data.json';
 
 export default () => {
@@ -23,7 +23,8 @@ export default () => {
                             </div>
                             <a target="_blank" href={item.credentials}>
                                 <button className='mt-3 credentials-button'>
-                                    Show credentials &nbsp;<CgArrowsExpandUpRight />
+                                    Show credentials &nbsp;
+                                    {/* <CgArrowsExpandUpRight /> */}
                                 </button> 
                             </a>
                         </div>
